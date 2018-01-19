@@ -1,0 +1,129 @@
+#calendar {
+	text-align:center;
+	font:normal 11px MS Sans Serif;
+	position:relative;
+	width:180px;
+}
+#calendar .calendarDetail {
+	border:1px solid #aaa;
+	margin:0 0 1em 0;
+	padding:0 0 0.3em 0;
+	width:100%;
+	color:#000;
+	background-color:#fff;
+}
+#calendar .calendarDetail .title td, #calendar .calendarDetail .title a {
+	font-weight:bold;
+	font-size:1.1em;
+	color:#fff;
+	background-color:#aaa;
+	padding:0.1em;
+	text-decoration:none;
+}
+#calendar .calendarDetail .title1 td {
+	border-bottom:1px dashed #ddd;
+	padding:0.2em;
+}
+#calendar .calendarDetail .week td, #calendar .calendarDetail .week a {
+	padding:0.2em;
+	text-decoration:none;
+	color:#000;
+	background-color:inherit;
+}
+#calendar .calendarDetail .week a:hover {
+	color:#000;
+	background-color:#eee;
+}
+#calendar .calendarDetail .lastMonth a, #calendar .calendarDetail .nextMonth a {
+	color:#aaa;
+	background-color:#eee;
+}
+#calendar .calendarDetail .weekend a {
+	color:#f00;
+	background-color:inherit;
+}
+#calendar .calendarDetail .event a {
+	font-weight:bold;
+	color:#87CEEB;
+	background-color:inherit;
+	text-decoration:underline;
+}
+#calendar .calendarDetail .today a {
+	color:#fff;
+	background-color:#808080;
+	font-weight:bold;
+}
+#calendar .calendarDetail .calendarEvent {
+	display:none;
+	margin:0;
+	padding:0.3em;
+	position:absolute;
+	width:180px;
+	color:#000;
+	background-color:#fff;
+	text-align:left;
+	border:1px solid #aaa;
+	font-weight:normal;
+}
+#calendar .calendarDetail .calendarEvent .date {
+	font-style:MS Sans Serif;
+                     font-weight:bold;
+                     color:#6699FF;
+}
+#calendar .calendarDetail .calendarEvent .edit {
+	float:right;
+}
+#calendar .calendarDetail .calendarEvent a {
+	font-weight:normal;
+	color:#000;
+	background-color:#fff;
+}
+#calendar .calendarDetail .calendarEvent li {
+	margin:0 0 1em 0;
+	list-style:disc inside none;
+}
+#calendar .calendarDetail td:hover > .calendarEvent {
+	display:block;
+}
+
+#calendarForm {
+	font:normal 11px MS Sans Serif;
+	background-color:#494949;
+	color:#fff;
+}
+#calendarForm .title {
+	text-align:center;
+	color:#eee;
+	background-color:#808080;
+	padding:0.3em;
+	margin:0 0 1em 0;
+	font-weight:bold;
+}
+#calendarForm .credit {
+	text-align:right;
+	margin:0;
+	padding:0 1em 0.5em 0;
+	color:#C0C0C0;
+	background-color:inherit;
+}
+#calendarForm .credit a {
+	color:#C0C0C0;
+	background-color:inherit;
+	text-decoration:underline;
+}
+#calendarForm .credit a:hover {
+	text-decoration:none;
+}
+#calendarForm form {
+	margin:0;
+	padding:0 0.5em;
+	color:#eee;
+	background-color:inherit;
+}
+#calendarForm form br {
+	clear:both;
+}
+#calendarForm input, #calendarForm select, #calendarForm textarea {
+	font:normal 11px MS Sans Serif;
+	margin:0 0 0.5em 0;
+}
